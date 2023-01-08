@@ -62,15 +62,26 @@ body {
     margin-top: 28px;
 }
 
+.controls>img {
+    transition: .5s;
+}
+
 .controls>img:hover {
     cursor: pointer;
-    box-shadow: 0 0 40px 0 #ffffff;
-    background-color: #9191a150;
-    transition: .4s;
+    filter: drop-shadow(0 0 20px white);
 }
 
 .bar {
     margin-top: 20px;
+}
+
+.bar img {
+    transition: .4s;
+}
+
+.bar img:hover {
+    cursor: pointer;
+    filter: drop-shadow(0 0 1px #ffffff);
 }
 
 .bar>p {
@@ -90,9 +101,14 @@ body {
 
 .nav img {
     width: 40px;
+    transition: .4s;
 }
 
 .nav>.previousPage img {
     transform: rotate(180deg);
     margin-right: 40px;
+}
+
+.nav img:hover {
+    filter: drop-shadow(0 0 25px white);
 }
