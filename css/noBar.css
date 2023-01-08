@@ -1,0 +1,12 @@
+.container {
+    height: 200px;
+}
+
+.bar img,
+.bar p {
+    display: none;
+}
+
+.nav img {
+    margin-left: 40px;
+}
